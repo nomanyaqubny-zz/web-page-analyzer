@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Page Analyzer</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="container">
+		<div id="search">
+			<!-- <form onsubmit="return disableForm();"> -->
+				<fieldset class="clearfix">
+					<input id="searchfield" type="search" name="search" placeholder="Enter a valid url here..">
+					<input type="button" value="Analyze" class="button" onclick="return getAnalysisReport()">
+				</fieldset>
+			<!-- </form> -->
+		</div>
+		<div id="report"></div>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

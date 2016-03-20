@@ -1,0 +1,110 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+body,html {
+	background-color: #3b4b54; width : 100%;
+	margin: 0 auto;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #ffffff;
+}
+
+table {
+	margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+th {
+	border-bottom: 1px solid #000;
+}
+
+th, td {
+	text-align: left;
+	padding: 2px 20px;
+}
+
+td {
+	height: 50px;
+}
+
+td.left {
+	border-right: 1px solid white;
+	overflow: hidden;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.container {
+	background: #42454e;
+	display: table;
+    margin: 60px auto;
+    width: 50%;
+    border : none;
+}
+
+#search {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+fieldset {
+    border: 0;
+    padding: 25px 0 0 0;
+}
+
+#search input[type="search"] {
+	background: #fff none repeat scroll 0 0;
+    color: #42454e;
+    padding: 7px 8px;
+    width: 79%;
+}
+
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.5em;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    -webkit-appearance: none;
+}
+
+#search input {
+    float: left;
+}
+
+#search input[type="button"]:hover {
+    background: #189e83;
+}
+
+#search input[type="button"] {
+	background: #1bba9a none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 5px;
+    min-width: 20%;
+    padding: 6px 10px;
+}
+
+#report {
+	padding: 10px 0 20px;
+	margin-right: 40px;
+    margin-left: 40px;
+}
+
+.green {
+	color: #00ff00;
+}
+
+.red {
+	color: #FF0000;
+}
+
+#report img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
